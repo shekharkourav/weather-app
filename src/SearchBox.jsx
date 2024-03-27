@@ -57,7 +57,6 @@ export default function SearchBox({updateInfo}){
              />
             <br /><br />
             <Button variant="contained" type="submit">Search</Button>
-            {error && <p>No such place exits!</p> }
            </form>
         </div>
     )
